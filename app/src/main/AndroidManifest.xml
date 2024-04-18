@@ -13,6 +13,33 @@
         android:theme="@style/Theme.WorkWise"
         tools:targetApi="31">
         <activity
+            android:name=".PlaceOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpgradeOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchFreelancerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpeningScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.WorkWise.Fullscreen" />
+        <activity
+            android:name=".HomeClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplachScreenActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
