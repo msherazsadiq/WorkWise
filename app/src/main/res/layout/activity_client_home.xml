@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Auto layout, variables, and unit scale are not yet supported -->
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/homescreen"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DDE6ED"
     android:orientation="vertical"
-    >
+    tools:context=".ClientHomeActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -85,9 +83,11 @@
         android:orientation="horizontal">
 
         <FrameLayout
+            android:id="@+id/Gig1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp">
+
 
             <View
                 android:layout_width="110dp"
@@ -108,6 +108,8 @@
                 android:text="Logo Design"
                 android:textColor="#DDE6ED"
                 android:textSize="14sp" />
+
+
         </FrameLayout>
 
 
@@ -291,10 +293,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
         android:layout_marginBottom="0dp"
         android:background="#27374D"
-        android:orientation="horizontal"
-        android:layout_gravity="bottom"
-        />
+        android:orientation="horizontal" />
 
 </RelativeLayout>

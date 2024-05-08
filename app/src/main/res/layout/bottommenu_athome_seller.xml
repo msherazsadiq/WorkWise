@@ -17,7 +17,7 @@
         android:orientation="horizontal">
 
         <FrameLayout
-            android:id="@+id/button_clienthome"
+            android:id="@+id/button_sellerhome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -51,7 +51,7 @@
 
 
         <FrameLayout
-            android:id="@+id/button_clientchat"
+            android:id="@+id/button_sellerchat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="55dp"
@@ -78,7 +78,7 @@
 
 
         <FrameLayout
-            android:id="@+id/button_clientsearch"
+            android:id="@+id/button_sellerorders"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="55dp"
@@ -87,16 +87,17 @@
             <!-- Auto layout, variables, and unit scale are not yet supported -->
 
             <View
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/icon_search" />
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:background="@drawable/icon_orders" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Search"
+                android:text="Orders"
                 android:textColor="#DDE6ED"
                 android:textSize="12sp"
                 android:layout_marginTop="25dp"
@@ -104,7 +105,7 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/button_clientprofile"
+            android:id="@+id/button_sellerprofile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="55dp"

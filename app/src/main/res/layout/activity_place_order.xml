@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/placeorderscreen"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#DDE6ED"
     android:orientation="vertical"
-    >
+    tools:context=".PlaceOrderActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -24,14 +23,12 @@
 
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:background="@drawable/sellergigdes"
-                    />
+                    android:background="@drawable/sellergigdes" />
 
                 <ImageView
                     android:layout_width="26dp"
@@ -45,15 +42,14 @@
                     android:layout_height="95dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/sellergicpic"
-                    />
+                    android:background="@drawable/sellergicpic" />
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="220dp"
                     android:layout_marginLeft="5dp"
-                    android:background="@drawable/grey_gradient_button_back"/>
+                    android:background="@drawable/grey_gradient_button_back" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -63,14 +59,15 @@
                     android:textSize="15sp"
                     android:textColor="#FFFFFF"
 
-                    android:text="Profile"/>
+                    android:text="Profile" />
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="220dp"
                     android:layout_marginLeft="106dp"
-                    android:background="@drawable/grey_gradient_button_back"/>
+                    android:background="@drawable/grey_gradient_button_back" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -79,7 +76,7 @@
                     android:textSize="15sp"
                     android:textColor="#FFFFFF"
 
-                    android:text="Chat"/>
+                    android:text="Chat" />
 
 
                 <ImageView
@@ -87,7 +84,8 @@
                     android:layout_height="30dp"
                     android:layout_marginTop="220dp"
                     android:layout_marginLeft="206dp"
-                    android:background="@drawable/grey_gradient_button_back"/>
+                    android:background="@drawable/grey_gradient_button_back" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -96,14 +94,15 @@
                     android:textSize="15sp"
                     android:textColor="#FFFFFF"
 
-                    android:text="Contact"/>
+                    android:text="Contact" />
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="220dp"
                     android:layout_marginLeft="306dp"
-                    android:background="@drawable/grey_gradient_button_back"/>
+                    android:background="@drawable/grey_gradient_button_back" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -112,7 +111,7 @@
                     android:textSize="15sp"
                     android:textColor="#FFFFFF"
 
-                    android:text="Review"/>
+                    android:text="Review" />
 
 
             </FrameLayout>
@@ -128,8 +127,7 @@
                 android:textSize="19sp"
                 android:textStyle="bold"
                 android:textColor="#27274D"
-                android:gravity="center_vertical"
-                />
+                android:gravity="center_vertical" />
 
             <TextView
                 android:id="@+id/hi_everone_"
@@ -152,6 +150,7 @@
                 android:gravity="center"
 
                 >
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -160,8 +159,7 @@
                     android:textSize="17sp"
                     android:textColor="@color/white"
                     android:lineSpacingExtra="1sp"
-                    android:gravity="center_horizontal|center_vertical"
-                    />
+                    android:gravity="center_horizontal|center_vertical" />
             </RelativeLayout>
 
             <LinearLayout
@@ -244,7 +242,6 @@
             </LinearLayout>
 
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -257,12 +254,12 @@
 
                     android:layout_marginLeft="20dp"
                     android:layout_marginBottom="20dp">
+
                     <View
                         android:id="@+id/rectangle_1"
                         android:layout_width="130dp"
                         android:layout_height="90dp"
-                        android:background="@drawable/gig_background_fully"
-                        />
+                        android:background="@drawable/gig_background_fully" />
 
                     <View
                         android:layout_width="12dp"
@@ -304,12 +301,12 @@
 
                     android:layout_marginLeft="20dp"
                     android:layout_marginBottom="20dp">
+
                     <View
-                        android:id="@+id/rectangle_1"
+
                         android:layout_width="130dp"
                         android:layout_height="90dp"
-                        android:background="@drawable/gig_background_fully"
-                        />
+                        android:background="@drawable/gig_background_fully" />
 
                     <View
                         android:layout_width="12dp"
@@ -343,7 +340,6 @@
                         tools:ignore="TextSizeCheck" />
 
                 </FrameLayout>
-
 
 
                 <FrameLayout
@@ -352,12 +348,12 @@
 
                     android:layout_marginLeft="20dp"
                     android:layout_marginBottom="20dp">
+
                     <View
-                        android:id="@+id/rectangle_1"
+
                         android:layout_width="130dp"
                         android:layout_height="90dp"
-                        android:background="@drawable/gig_background_fully"
-                        />
+                        android:background="@drawable/gig_background_fully" />
 
                     <View
                         android:layout_width="12dp"
@@ -391,19 +387,15 @@
                         tools:ignore="TextSizeCheck" />
 
                 </FrameLayout>
-
 
 
             </LinearLayout>
-
 
 
         </LinearLayout>
 
 
     </ScrollView>
-
-
 
 
     <include
@@ -415,7 +407,6 @@
         android:layout_marginBottom="0dp"
         android:background="#27374D"
         android:orientation="horizontal"
-        android:layout_gravity="bottom"
-        />
+        android:layout_gravity="bottom" />
 
 </RelativeLayout>

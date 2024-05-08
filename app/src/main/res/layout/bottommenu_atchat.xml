@@ -11,6 +11,7 @@
 
     <!-- ================================================= -->
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#27374D"
@@ -24,18 +25,12 @@
             android:layout_gravity="center"
             >
             <!-- Auto layout, variables, and unit scale are not yet supported -->
-            <View
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/current_screen_back"
-                />
 
             <View
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/icon_home" />
 
             <TextView
@@ -46,6 +41,7 @@
                 android:textColor="#DDE6ED"
                 android:textSize="12sp"
                 android:layout_marginTop="25dp"
+                android:layout_marginLeft="12dp"
                 android:layout_marginBottom="10dp"/>
         </FrameLayout>
 
@@ -60,9 +56,17 @@
             <!-- Auto layout, variables, and unit scale are not yet supported -->
 
             <View
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/current_screen_back"
+                />
+
+            <View
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="20dp"
                 android:background="@drawable/icon_chat" />
 
             <TextView

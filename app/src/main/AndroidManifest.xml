@@ -13,34 +13,7 @@
         android:theme="@style/Theme.WorkWise"
         tools:targetApi="31">
         <activity
-            android:name=".PlaceOrderActivity"
-            android:exported="false" />
-        <activity
-            android:name=".UpgradeOrderActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SearchFreelancerActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".OpeningScreenActivity"
-            android:exported="false" />
-        <activity
-            android:name=".LoginActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:exported="false"
-            android:label="@string/title_activity_login"
-            android:theme="@style/Theme.WorkWise.Fullscreen" />
-        <activity
-            android:name=".HomeClientActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplachScreenActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".ActiveOrdersActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,6 +21,75 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ManageGigsActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".EarningsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageOrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeactivateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeletionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DeletionDeactivationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Support2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrefrencesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpgradeOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchFreelancerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OpeningActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

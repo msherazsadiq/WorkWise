@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Auto layout, variables, and unit scale are not yet supported -->
-<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/loginscreen"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:clipToOutline="true"
     android:background="#DDE6ED"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/login"
@@ -43,7 +45,7 @@
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
     <RelativeLayout
-        android:id="@+id/button_prim"
+        android:id="@+id/button_signin"
         android:layout_width="300dp"
         android:layout_height="56dp"
         android:layout_marginTop="50dp"
@@ -81,6 +83,7 @@
             android:translationY="0.28sp" />
 
         <TextView
+            android:id="@+id/button_createaccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
