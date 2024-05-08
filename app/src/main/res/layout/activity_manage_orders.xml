@@ -155,18 +155,26 @@
         android:layout_marginTop="-35dp"
         android:layout_marginLeft="310dp"/>
 
-
-    <include
-        android:id="@+id/bottom_menu"
-        layout="@layout/bottommenu_atorders_seller"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom"
-        android:layout_marginBottom="0dp"
-        android:layout_marginTop="40dp"
-        android:background="#27374D"
-        android:orientation="horizontal" />
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_marginTop="275dp"
+        android:layout_marginBottom="0dp">
+        <include
+            android:id="@+id/bottom_menu"
+            layout="@layout/bottommenu_atorders_seller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#27374D"
+            android:orientation="horizontal" />
+    </LinearLayout>
+
+
 
 
 </LinearLayout>

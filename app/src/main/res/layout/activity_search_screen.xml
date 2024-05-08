@@ -194,4 +194,17 @@
         android:layout_marginTop="-15dp"/>
 
 
+    <include
+        android:id="@+id/bottom_menu"
+        layout="@layout/bottommenu_atsearch"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#27374D"
+        android:orientation="horizontal"
+        android:layout_marginTop="220dp"
+        android:layout_gravity="bottom" />
+
+
 </LinearLayout>

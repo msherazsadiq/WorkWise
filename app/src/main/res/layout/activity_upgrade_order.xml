@@ -65,6 +65,7 @@
             android:gravity="center_vertical"
             android:lineSpacingExtra="-12sp"
             android:text="Check out my Gigs extras"
+            android:textStyle="bold"
             android:textColor="#27374D"
             android:textSize="15sp" />
 
@@ -80,6 +81,7 @@
             android:gravity="center_vertical"
             android:lineSpacingExtra="-12sp"
             android:text="Quantity"
+            android:textStyle="bold"
             android:textColor="#27374D"
             android:textSize="15sp" />
     </LinearLayout>
@@ -98,29 +100,387 @@
 
             <TextView
                 android:id="@+id/extra_fast_"
-                android:layout_width="118dp"
-                android:layout_height="19dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="14dp"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="10dp"
                 android:text="Extra fast 1 Day"
                 android:textColor="@color/DarkBlue"
+                android:textSize="15dp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:text="+PKR 5837.00"
+                android:textColor="@color/DarkBlue"
                 android:textSize="12dp"
                 android:gravity="top"
                 />
+
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
             android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_minus"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="@color/special"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_plus"/>
+
+
 
 
         </LinearLayout>
     </LinearLayout>
 
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="@color/lightslategray"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp"
+        />
 
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Extra fast 1 Day"
+                android:textColor="@color/DarkBlue"
+                android:textSize="15dp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:text="+PKR 5837.00"
+                android:textColor="@color/DarkBlue"
+                android:textSize="12dp"
+                android:gravity="top"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_minus"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="@color/special"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_plus"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="@color/lightslategray"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="-12sp"
+            android:text="Check out my Gigs extras"
+            android:textStyle="bold"
+            android:textColor="#27374D"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="-12sp"
+            android:text="Quantity"
+            android:textStyle="bold"
+            android:textColor="#27374D"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Extra fast 1 Day"
+                android:textColor="@color/DarkBlue"
+                android:textSize="15dp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:text="+PKR 5837.00"
+                android:textColor="@color/DarkBlue"
+                android:textSize="12dp"
+                android:gravity="top"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_minus"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="@color/special"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_plus"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="@color/lightslategray"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="14dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:text="Extra fast 1 Day"
+                android:textColor="@color/DarkBlue"
+                android:textSize="15dp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="25dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5dp"
+                android:text="+PKR 5837.00"
+                android:textColor="@color/DarkBlue"
+                android:textSize="12dp"
+                android:gravity="top"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_minus"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="20dp"
+                android:textColor="@color/special"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="-5dp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/icon_plus"/>
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="2dp"
+        android:background="@color/lightslategray"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/button_continueOrder"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="265dp"
+        android:background="@drawable/signin_button"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:lineSpacingExtra="1sp"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
 
 
 </RelativeLayout>

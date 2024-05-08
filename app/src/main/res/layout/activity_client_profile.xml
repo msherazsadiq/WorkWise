@@ -11,7 +11,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="190dp"
         android:background="@color/special"
         android:orientation="vertical">
         <ImageButton
@@ -85,126 +85,124 @@
         android:layout_marginLeft="330dp"></ImageButton>
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Settings"
-            android:textStyle="bold"
-            android:textSize="19dp"
-            android:textColor="@color/special"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="40dp"/>
+            android:layout_marginTop="40dp"
+            android:text="Settings"
+            android:textColor="@color/special"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
         <ImageView
             android:layout_width="25dp"
             android:layout_height="25dp"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/icon_setting"
-            android:backgroundTint="@color/special"/>
+            android:backgroundTint="@color/special" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/special"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="-25dp"
             android:text="Preferences"
-            android:textSize="18dp"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="-25dp"/>
+            android:textColor="@color/special"
+            android:textSize="18dp" />
+
         <ImageButton
             android:layout_width="30dp"
             android:layout_height="20dp"
-            android:background="@drawable/icon_forwardarrow"
             android:layout_marginLeft="330dp"
-            android:layout_marginTop="-35dp"/>
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/icon_forwardarrow" />
 
         <View
             android:layout_width="340dp"
             android:layout_height="1dp"
-            android:background="@color/lightgrey"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"/>
+            android:background="@color/lightgrey" />
 
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/icon_accountsetting"
-            android:backgroundTint="@color/special"/>
+            android:backgroundTint="@color/special" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/special"
-            android:text="Account"
-            android:textSize="18dp"
             android:layout_marginLeft="70dp"
-            android:layout_marginTop="-25dp"/>
+            android:layout_marginTop="-25dp"
+            android:text="Account"
+            android:textColor="@color/special"
+            android:textSize="18dp" />
+
         <ImageButton
             android:layout_width="30dp"
             android:layout_height="20dp"
-            android:background="@drawable/icon_forwardarrow"
             android:layout_marginLeft="330dp"
-            android:layout_marginTop="-35dp"/>
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/icon_forwardarrow" />
 
         <View
             android:layout_width="340dp"
             android:layout_height="1dp"
-            android:background="@color/lightgrey"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"/>
+            android:background="@color/lightgrey" />
 
         <ImageView
             android:layout_width="20dp"
             android:layout_height="20dp"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/icon_helpsupport"
-            android:backgroundTint="@color/special"/>
+            android:backgroundTint="@color/special" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/special"
-            android:text="Help and Support"
-            android:textSize="18dp"
             android:layout_marginLeft="70dp"
-            android:layout_marginTop="-25dp"/>
+            android:layout_marginTop="-25dp"
+            android:text="Help and Support"
+            android:textColor="@color/special"
+            android:textSize="18dp" />
+
         <ImageButton
             android:layout_width="30dp"
             android:layout_height="20dp"
-            android:background="@drawable/icon_forwardarrow"
             android:layout_marginLeft="330dp"
-            android:layout_marginTop="-35dp"/>
+            android:layout_marginTop="-35dp"
+            android:background="@drawable/icon_forwardarrow" />
 
         <View
             android:layout_width="340dp"
             android:layout_height="1dp"
-            android:background="@color/lightgrey"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="10dp"/>
+            android:background="@color/lightgrey" />
+
+
 
     </LinearLayout>
-
-    <LinearLayout
+    <include
+        android:id="@+id/bottom_menu"
+        layout="@layout/bottommenu_atprofile"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="bottom"
-        android:layout_marginBottom="0dp"
-        android:layout_gravity="bottom">
-
-        <include
-            android:id="@+id/bottom_menu"
-            layout="@layout/bottommenu_atprofile"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_marginBottom="0dp"
-            android:background="#27374D"
-            android:orientation="horizontal" />
-
-    </LinearLayout>
+        android:layout_height="100dp"
+        android:layout_marginTop="-50dp"
+        android:background="#27374D"
+        android:orientation="horizontal" />
 
 
 </LinearLayout>

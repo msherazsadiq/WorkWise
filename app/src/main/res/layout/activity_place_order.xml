@@ -31,6 +31,7 @@
                     android:background="@drawable/sellergigdes" />
 
                 <ImageView
+                    android:id="@+id/button_gotoBack"
                     android:layout_width="26dp"
                     android:layout_height="26dp"
                     android:layout_marginLeft="13dp"
@@ -143,7 +144,7 @@
 
 
             <RelativeLayout
-                android:id="@+id/button_prim"
+                android:id="@+id/button_continueOrder"
                 android:layout_width="300dp"
                 android:layout_height="35dp"
                 android:background="@drawable/signin_button"

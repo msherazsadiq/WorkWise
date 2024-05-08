@@ -27,6 +27,7 @@
                 android:background="@drawable/top_bar" />
 
             <ImageView
+                android:id="@+id/button_goback"
                 android:layout_width="26dp"
                 android:layout_height="26dp"
                 android:layout_marginLeft="13dp"
@@ -56,6 +57,7 @@
         android:orientation="vertical">
 
         <FrameLayout
+            android:id="@+id/button_gotoGig1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="10dp"

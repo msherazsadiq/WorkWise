@@ -208,8 +208,9 @@
         android:id="@+id/bottom_menu"
         layout="@layout/bottommenu_atprofile_seller"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_gravity="bottom"
+        android:layout_marginTop="190dp"
         android:layout_marginBottom="0dp"
         android:background="#27374D"
         android:orientation="horizontal" />

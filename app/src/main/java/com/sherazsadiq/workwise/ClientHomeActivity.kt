@@ -20,10 +20,40 @@ class ClientHomeActivity : AppCompatActivity() {
             insets
         }
 
-        val signInBtn = findViewById<FrameLayout>(R.id.Gig1)
-        signInBtn.setOnClickListener {
-            val intent = Intent(this, UpgradeOrderActivity::class.java)
+        val gotoGig1 = findViewById<FrameLayout>(R.id.Gig1)
+        gotoGig1.setOnClickListener {
+            val intent = Intent(this, SearchFreelancerActivity::class.java)
             startActivity(intent)
         }
+
+        val buttonHome = findViewById<FrameLayout>(R.id.button_clienthome)
+        buttonHome.setOnClickListener {
+            val intent = Intent(this, ClientHomeActivity::class.java)
+            startActivity(intent)
+        }
+
+
+        val buttonChat = findViewById<FrameLayout>(R.id.button_clientchat)
+        buttonChat.setOnClickListener {
+            val intent = Intent(this, ClientChatInboxActivity::class.java)
+            startActivity(intent)
+        }
+
+
+        val buttonSearch = findViewById<FrameLayout>(R.id.button_clientsearch)
+        buttonSearch.setOnClickListener {
+            val intent = Intent(this, SearchScreenActivity::class.java)
+            startActivity(intent)
+        }
+
+        val buttonProfile = findViewById<FrameLayout>(R.id.button_clientprofile)
+        buttonProfile.setOnClickListener {
+            val intent = Intent(this, ClientProfileActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
+
     }
 }
