@@ -13,6 +13,12 @@
         android:theme="@style/Theme.WorkWise"
         tools:targetApi="31">
         <activity
+            android:name=".UploadVideoUploadPhotoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddGigActivity"
+            android:exported="false" />
+        <activity
             android:name=".ClientChatAvtivity"
             android:exported="true">
             <intent-filter>
@@ -26,7 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".ClientInboxActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".OrderReviewActivity"
             android:exported="false" />
