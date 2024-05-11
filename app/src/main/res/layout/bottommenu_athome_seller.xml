@@ -17,7 +17,7 @@
         android:orientation="horizontal">
 
         <FrameLayout
-            android:id="@+id/button_sellerhome"
+            android:id="@+id/Home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -28,6 +28,7 @@
                 android:layout_width="70dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="10dp"
+                android:visibility="visible"
                 android:background="@drawable/current_screen_back"
                 />
 
@@ -51,7 +52,7 @@
 
 
         <FrameLayout
-            android:id="@+id/button_sellerchat"
+            android:id="@+id/Chat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="55dp"
@@ -78,7 +79,7 @@
 
 
         <FrameLayout
-            android:id="@+id/button_sellerorders"
+            android:id="@+id/Orders"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="55dp"
@@ -105,7 +106,7 @@
         </FrameLayout>
 
         <FrameLayout
-            android:id="@+id/button_sellerprofile"
+            android:id="@+id/Profile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="55dp"
